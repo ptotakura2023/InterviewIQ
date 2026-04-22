@@ -1,0 +1,92 @@
+# ===================================
+# InterviewIQ - Root .gitignore
+# ===================================
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Build outputs (general)
+dist/
+build/
+out/
+
+# ===================================
+# Backend (Java/Spring Boot) Specific
+# ===================================
+
+# Maven
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Gradle (if using Gradle instead)
+backend/.gradle/
+backend/build/
+
+# Spring Boot
+backend/HELP.md
+
+# ===================================
+# Frontend (React/Node.js) Specific
+# ===================================
+
+# Dependencies
+frontend/node_modules/
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Testing
+frontend/coverage/
+
+# ===================================
+# Docker
+# ===================================
+*.log
+.docker/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets (NEVER commit these!)
+*secret*
+*password*
+*credentials*
+application-prod.yml
+application-prod.properties
