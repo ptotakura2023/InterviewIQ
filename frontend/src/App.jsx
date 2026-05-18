@@ -1,12 +1,7 @@
-import './App.css'
+import RegisterPage from './pages/RegisterPage'
 
 function App() {
-  return(
-    <div>
-      <h1>InterviewIQ</h1>
-    </div>
-  )
-  
+  return<RegisterPage />
 }
 
 export default App
